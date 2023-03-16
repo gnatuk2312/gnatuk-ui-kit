@@ -1,11 +1,21 @@
 {
   "name": "gnatuk-ui-kit",
   "version": "1.0.2",
-  "description": "",
+  "description": "Simple ui kit library",
   "main": "./dist/index.js",
   "scripts": {
     "publish:patch": "webpack && npm version patch && npm publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnatuk2312/gnatuk-ui-kit"
+  },
+  "keywords": [
+    "gnatuk-ui-kit",
+    "ui kit",
+    "react",
+    "react components"
+  ],
   "author": "Hnat_Liashenko",
   "license": "ISC",
   "devDependencies": {
